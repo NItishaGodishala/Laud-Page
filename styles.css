@@ -1,0 +1,108 @@
+.navelem{
+    display:flex;
+    margin-left: 150px;
+    padding-top: 15px;
+    font-size:x-small;
+}
+.para{
+   padding-right: 20px;
+}
+.intropage{
+    background-color: #3a3838;
+    color:#f5f2f2;
+}
+.intro{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.description{
+   margin-left: 150px;
+   padding-top: 50px;
+   padding-right: 40px;
+}
+.poetdesc{
+    background-color: #f5f2f2;
+    color: #3a3838; 
+    font-size: small;
+
+}
+.awardsdescription{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    font-size: small;
+} 
+.awards{
+    border: solid black 1px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.awardsection{
+    padding-top: 40px;
+}
+.workdesc{
+    margin-left: 150px;
+    font-size: 10px;
+}
+.imagediv{
+    padding-top: 100px;
+    padding-left: 100px;
+    filter: saturate(3);
+    -webkit-filter: saturate(3);
+}
+.buttondiv{
+    margin-top: 10px;
+    margin-left: 30%;
+    background-color: #f5f2f2;
+    color: #3a3838;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.buttonspacing{
+    margin-right: 10px;
+}
+.middleinfo{
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+.awardsection:before,
+.awardsection:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto; 
+}
+.poetry:before,
+.poetry:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+.poems:before,
+.poems:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+.poetry{
+    margin-left: 250px;
+}
+.poemsworkdesc{
+    margin-right:150px;
+    font-size: 10px;
+}
+.footerdesc{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    font-size: 8px;
+}
+.content{
+    color: #5858ef;
+}
